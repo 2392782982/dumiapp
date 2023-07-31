@@ -1,0 +1,32 @@
+.Divider {
+    .hrDivider {
+        color: #000;
+        border: 0;
+        font-size: 12px;
+        padding: 10px 0;
+        position: relative;
+    }
+
+    .hrDivider:after {
+        content: "你要插入的文案";
+        position: absolute;
+        padding: 0 10px;
+        line-height: 1px;
+        border: solid red;
+        border-width: 0 100vw;
+        white-space: nowrap;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .verticalDivider {
+        position: relative;
+        bottom:20px;
+        right: 30px;
+        width: 1px;
+        height: 20px; /* 设置分割线的高度 */
+        background-color: black; /* 设置分割线的颜色 */
+      }
+      
+     
+}
