@@ -8,5 +8,3 @@ export { default as InputNumber } from './InputNumber';
 export { default as Radio } from './Radio';
 export { default as Select } from './Select';
 export { default as Tag } from './Tag';
-
-
